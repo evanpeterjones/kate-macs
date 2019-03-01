@@ -13,8 +13,9 @@ I am familiar enough with Emacs to feel stunted by a lack of cursor control and 
 **It's _super easy_ to make changes! Load your '.shortcuts' file into Kate, make your changes in the same GUI used for import and then export the shortcuts file and send me a pull request**
 
 # Current Issues
-Some commands I have attempted to add but have found Kate does not support, such as C-l to cycle the view orientation around the cursor.
-Certainly larger packages like 'M-x replace-regexp' do not have a port, so compensations have been made, C-s & M-% both open a find-and-replace dialog, as an example.
+Some commands Kate does not support, such as C-l to cycle the view orientation around the cursor.
+Larger packages like 'M-x replace-regexp' do not have support.
+Certain compensations have been made, C-s & M-% both open a find-and-replace dialog, as an example.
 
 # Working Commands
 ### kate_aliases = emacs-equivalent
