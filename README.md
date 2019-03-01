@@ -24,6 +24,10 @@ beginning_of_document = M-<
 
 beginning_of_line = C-a
 
+close_current_view = C-x, 0
+
+close_inactive_views = C-x, 1
+
 delete_next_character = C-d
 
 delete_word_right = M-d
