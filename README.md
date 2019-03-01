@@ -1,7 +1,7 @@
 # Kate-macs
 A config file containing a subset of the Emacs keybindings for the KDE Kate text editor.
 
-# Using 
+# Getting Started
 Open Kate and from the toolbar...
 `settings > Configure Shortcuts... > Manage Schemes >> Import Scheme`
 give it the `.shortcuts` file in this repo and you're off to the races!
