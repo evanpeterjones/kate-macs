@@ -20,7 +20,6 @@ Load the '.shortcuts' file into Kate, make your changes in the same GUI used for
 # Working Commands
 ### kate_aliases = emacs-equivalent
 ```
-
 beginning_of_document = M-<
 
 beginning_of_line = C-a
@@ -76,14 +75,11 @@ view_split_vert = C-X, 3
 word_left = M-b
 
 word_right = M-f
-
 ```
 
-# Known Broken Commands
+# Broken Commands
 ```
-
 scroll_page_up = M-v		  : unknown why Kate finds this ambiguous?
 
 (align view to cursor) = C-l 	  : no kate alias equivalent
-
 ```
