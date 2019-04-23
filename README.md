@@ -70,8 +70,6 @@ to_matching_bracket = M-e
 
 tools_cleanIndent = C-M-\\
 
-tools_scripts_jumpIndentUp = M-a
-
 view_split_horiz = C-X, 2
 
 view_split_vert = C-X, 3
@@ -81,9 +79,17 @@ word_left = M-b
 word_right = M-f
 ```
 
-# Broken Commands
+# Non-working Commands
 ```
-scroll_page_up = M-v		  : unknown why Kate finds this ambiguous?
+page up = M-v			  : ?
 
-(align view to cursor) = C-l 	  : no kate alias equivalent
+align view to cursor = C-l 	  : no native kate equivalent
+
+cursor to start of block = M-a    : ?
+
+undo = C-_			  : ?
+
+start-end mark = C-space 	  : ? (this is the most frustrating)
+
+kill = C-k     	 		  : technically works, but has strange side-effects
 ```
