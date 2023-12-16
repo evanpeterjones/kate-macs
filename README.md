@@ -89,7 +89,7 @@ cursor to start of block = M-a    : ?
 
 undo = C-_			  : ?
 
-start-end mark = C-space 	  : ? (this is the most frustrating)
+start-end mark = C-space 	  : Start the Marked Selection (from version 5.113.0 by https://invent.kde.org/frameworks/ktexteditor/-/merge_requests/633)
 
 kill = C-k     	 		  : technically works, but has strange side-effects
 ```
