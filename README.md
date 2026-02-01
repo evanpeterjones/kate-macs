@@ -36,7 +36,9 @@ delete_word_right = M-d
 
 edit_cut = C-w
 
-edit_paste = C-w
+edit_copy = M-w
+
+edit_paste = C-y
 
 edit_find = C-s
 
@@ -88,16 +90,11 @@ word_right = M-f
 ```
 
 # Non-working Commands
-```
-page up = M-v			  : ?
-
-align view to cursor = C-l 	  : no native kate equivalent
-
+```diff
+page up = M-v   				  : ?
+align view to cursor = C-l        : no native kate equivalent
 cursor to start of block = M-a    : ?
-
-undo = C-_			  : ?
-
-~~start-end mark = C-space 	  : Start the Marked Selection~~ (available from version 5.113.0 by https://invent.kde.org/frameworks/ktexteditor/-/merge_requests/633)
-
-kill = C-k     	 		  : technically works, but has strange side-effects
+undo = C-_      				  : ?
++mark_selection = C-\Space		  : Start the Marked Selection (available from version 5.113.0 by https://invent.kde.org/frameworks/ktexteditor/-/merge_requests/633)
+kill = C-k						  : technically works, but has strange side-effects
 ```
