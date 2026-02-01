@@ -28,6 +28,8 @@ close_current_view = C-x, 0
 
 close_inactive_views = C-x, 1
 
+delete_line = M-Del
+
 delete_next_character = C-d
 
 delete_word_right = M-d
@@ -35,6 +37,8 @@ delete_word_right = M-d
 edit_cut = C-w
 
 edit_paste = C-w
+
+edit_find = C-s
 
 edit_select_all = C-x, C-p
 
@@ -46,15 +50,17 @@ end_of_line = C-e
 
 file_close = C-x, C-c
 
-file_open = C-x, C-f
-
 file_save = C-x, C-s
+
+file_quit = C-q
 
 go_goto_line = M-g, g
 
 go_next_split_view = C-x, o
 
 kate_mdi_toolview_kate_plugin_katesearch (find-and-replace) = -%;  C-s
+
+mark_selection = C-\Space
 
 move_cursor_right = C-f
 
@@ -70,9 +76,11 @@ to_matching_bracket = M-e
 
 tools_cleanIndent = C-M-\\
 
-view_split_horiz = C-X, 2
+view_split_horiz = C-x, 2
 
-view_split_vert = C-X, 3
+view_split_vert = C-x, 3
+
+view_quick_open = C-x, C-f
 
 word_left = M-b
 
@@ -89,7 +97,7 @@ cursor to start of block = M-a    : ?
 
 undo = C-_			  : ?
 
-start-end mark = C-space 	  : Start the Marked Selection (from version 5.113.0 by https://invent.kde.org/frameworks/ktexteditor/-/merge_requests/633)
+~~start-end mark = C-space 	  : Start the Marked Selection~~ (available from version 5.113.0 by https://invent.kde.org/frameworks/ktexteditor/-/merge_requests/633)
 
 kill = C-k     	 		  : technically works, but has strange side-effects
 ```
